@@ -48,7 +48,7 @@ Grave um vídeo curto (máximo 5 minutos) com a câmera aberta, se possível.
 
 ## 📩 Como entregar
 
-Se quiser seguir com o processo seletivo, **responda ao nosso e-mail/mensagem com um prazo estimado de entrega do teste**.
+Se quiser seguir com o processo seletivo, **responda a nossa mensagem no linkedin com um prazo estimado de entrega do teste**.
 
 Esse tipo de alinhamento é comum no nosso dia a dia de trabalho e é algo que levamos em consideração no processo.
 
