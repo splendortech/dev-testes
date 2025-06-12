@@ -5,6 +5,9 @@ Queremos que este processo seja objetivo, direto e com o mínimo de fricção po
 
 Se você chegou até aqui, significa que queremos conhecer melhor sua habilidade com WordPress + Elementor.
 
+> ⚠️ **Este é um teste simulado. Ele não será usado em projetos reais nem para fins comerciais.**  
+> Nosso objetivo é avaliar sua familiaridade com Elementor, atenção a detalhes visuais, e sua capacidade de entregar páginas responsivas dentro de um fluxo de trabalho semelhante ao que usamos no dia a dia.
+
 Este desafio é o mesmo para todos os candidatos e é composto por **dois passos**:
 
 ---
@@ -48,7 +51,7 @@ Grave um vídeo curto (máximo 5 minutos) com a câmera aberta, se possível.
 
 ## 📩 Como entregar
 
-Se quiser seguir com o processo seletivo, **responda a nossa mensagem no linkedin com um prazo estimado de entrega do teste**.
+Se quiser seguir com o processo seletivo, **responda a nossa mensagem no LinkedIn com um prazo estimado de entrega do teste**.
 
 Esse tipo de alinhamento é comum no nosso dia a dia de trabalho e é algo que levamos em consideração no processo.
 
