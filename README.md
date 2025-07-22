@@ -27,6 +27,20 @@ Reproduzir o seguinte layout utilizando WordPress com **tema Hello Elementor + t
   - Seu servidor
   - Etc
 
+---
+
+### 💡 EXTRA – Validação de código PHP no WordPress
+
+Além do layout visual, crie no tema filho os seguintes recursos programáticos:
+
+- Um **shortcode `[ano-atual]`** que exibe o ano atual
+- Um filtro para modificar o **título de posts** adicionando “⭐” ao final
+- Um hook `wp_footer` que imprime um comentário HTML ao final da página: `<!-- Renderizado por [seu_nome] -->`
+
+Esses itens devem estar documentados no `functions.php` com comentários claros.
+
+---
+
 ### 🔑 Elementor Pro
 
 Caso não tenha licença, pode usar esta versão apenas para o teste:
@@ -84,25 +98,26 @@ Pode ser PHP puro (procedural ou OO). Use boas práticas.
 
 ### 🎯 Objetivo
 
-Validar sua autonomia técnica e capacidade de seguir documentação.
+Validar sua autonomia técnica e capacidade de seguir documentação/códigos diversos.
 
 ### 📋 Tarefas
 
 - Clonar: [https://github.com/AlexGnatko/EMPS6](https://github.com/AlexGnatko/EMPS6)
 - Instanciar o framework localmente
 - Criar uma página que exiba “Hello World” em uma nova rota
-- Explicar brevemente como fez
+- Subir o projeto no Git
+- Readme explicando brevemente como fez
 
 📘 Documentação: [https://emps.ag38.ru](https://emps.ag38.ru)
 
 ---
 
-## 🎥 (Opcional) Vídeo de Apresentação
+## 🎥 (Opcional mas totalmente válido) Vídeo de Apresentação
 
 Grave um vídeo rápido (máx. 5 min) com:
 
 - Breve apresentação
-- Explicação do raciocínio técnico
+- Explicação do raciocínio técnico mostrando os testes realizados
 - Decisões que tomou
 - O que faria diferente
 
@@ -112,15 +127,15 @@ Grave um vídeo rápido (máx. 5 min) com:
 
 Preencha o formulário abaixo com os links de entrega:
 
-👉 [Formulário de envio – Dev Full Stack](https://forms.gle/EXEMPLO-DE-LINK)
+👉 [Formulário de envio – Dev Full Stack](https://forms.gle/3aiw4cAqVHaZrgNG8)
 
 Inclua:
 
 1. Link da landing page Elementor
 2. Link do projeto Vue.js funcional
-3. Link da API PHP (repositório ou ZIP)
-4. Print ou link da instância EMPS
-5. (Opcional) Link do vídeo de apresentação
+3. Link da API PHP (repositório)
+4. Repositório com a instância do Framework EMPS
+5. (Opcional mas válido) Link do vídeo de apresentação (Loom ou vídeo privado no Youtube)
 
 ---
 
