@@ -12,7 +12,7 @@ Queremos conhecer melhor sua capacidade técnica com **PHP moderno**, **WordPres
 
 ### 🎯 Objetivo
 
-Reproduzir o seguinte layout utilizando WordPress com **tema Hello Elementor + tema filho oficial** e **Elementor (livre)**:
+Reproduzir o seguinte layout (Landing page) utilizando WordPress com **tema Hello Elementor + tema filho oficial** e **Elementor (livre)**:
 
 🔗 [Figma – Positivus Landing Page](https://www.figma.com/design/044YZ9Nh2LITD4OtzTNYja/Positivus-Landing-Page-Design--Community-?t=btGYEgQJ3URdWUEh-0)
 
@@ -20,7 +20,7 @@ Reproduzir o seguinte layout utilizando WordPress com **tema Hello Elementor + t
 
 - Usar Hello Elementor com o tema filho oficial
 - Fidelidade visual ao Figma: tipografia, espaçamentos, cores e hierarquia
-- Responsividade obrigatória (mesmo sem layout mobile)
+- Responsividade obrigatória
 - Pode usar Elementor Pro ou escrever partes em código (CSS/JS/PHP)
 - Entregar em uma URL pública, como:
   - InstaWP, LocalWP (Live Link)
