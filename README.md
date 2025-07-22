@@ -1,61 +1,128 @@
-# 🧪 Desafio Técnico – Web Designer (Elementor)
+# 🧪 Desafio Técnico – Desenvolvedor(a) Full Stack PHP/WordPress
 
-Olá, e obrigado pelo seu interesse na nossa vaga de Web Designer!  
-Queremos que este processo seja objetivo, direto e com o mínimo de fricção possível.
+Olá! Obrigado por chegar até aqui.
 
-Se você chegou até aqui, significa que queremos conhecer melhor sua habilidade com WordPress + Elementor.
+Queremos conhecer melhor sua capacidade técnica com **PHP moderno**, **WordPress**, **hooks/filtros/shortcodes**, **integração com APIs**, uso de **Vue.js** e atenção a detalhes no **front-end responsivo**.
 
-> ⚠️ **Este é um teste simulado. Ele não será usado em projetos reais nem para fins comerciais.**  
-> Nosso objetivo é avaliar sua familiaridade com Elementor, atenção a detalhes visuais, e sua capacidade de entregar páginas responsivas dentro de um fluxo de trabalho semelhante ao que usamos no dia a dia.
-
-Este desafio é o mesmo para todos os candidatos e é composto por **dois passos**:
+> ⚠️ Este é um teste simulado. Ele **não será usado em produção** e tem como único objetivo avaliar seu domínio técnico, clareza de raciocínio e organização de código.
 
 ---
 
-## ✅ 1. Recriação de Layout no WordPress com Elementor
+## ✅ Parte 1 – Recriação de layout no WordPress (Hello Elementor + Tema Filho)
 
 ### 🎯 Objetivo
 
-Reproduzir o seguinte layout utilizando WordPress + Elementor/Elementor Pro, da forma mais fiel possível ao design original.
+Reproduzir o seguinte layout utilizando WordPress com **tema Hello Elementor + tema filho oficial** e **Elementor (livre)**:
 
-- 🔗 [Link para o layout (Figma)](https://www.figma.com/design/wuoNbC17ZMrNcJEnItdDK3/Zenlift---Mental-Health-Clinic---Consultation--Community-?node-id=0-1&t=KleBHjJsiYPywwjK-1)
+🔗 [Figma – Positivus Landing Page](https://www.figma.com/design/044YZ9Nh2LITD4OtzTNYja/Positivus-Landing-Page-Design--Community-?t=btGYEgQJ3URdWUEh-0)
 
-### 🛠 Requisitos técnicos
+### 🛠 Requisitos
 
-- Utilize o tema [Hello Elementor](https://elementor.com/hello-theme/) com [Child Theme oficial](https://github.com/elementor/hello-theme-child).
-- Faça o layout o mais próximo possível do Figma, com atenção a espaçamentos, tipografia e hierarquia visual.
-- Desenvolva uma versão **responsiva** do site (mesmo que o Figma não tenha telas mobile).
-- O projeto deve ser entregue em uma **URL pública** de sua preferência (hospedagem própria, LocalWP com link Live, InstaWP, etc).
+- Usar Hello Elementor com o tema filho oficial
+- Fidelidade visual ao Figma: tipografia, espaçamentos, cores e hierarquia
+- Responsividade obrigatória (mesmo sem layout mobile)
+- Pode usar Elementor Pro ou escrever partes em código (CSS/JS/PHP)
+- Entregar em uma URL pública, como:
+  - InstaWP, LocalWP (Live Link)
+  - Seu servidor
+  - Etc
 
-### 🧪 Elementor Pro
+### 🔑 Elementor Pro
 
-Sabemos que nem todos possuem uma licença do Elementor Pro. Para efeito exclusivo deste teste, você pode utilizar a seguinte versão:
+Caso não tenha licença, pode usar esta versão apenas para o teste:
 
-- ⚠️ [Download Elementor Pro Nulled (uso apenas para o teste)](https://drive.google.com/file/d/1wyNaDfLTuK-G2GXsMAbCIF_9kRVDfxol/view?usp=sharing)
-
-> ❗ **Importante:** não endossamos o uso de versões nulled em projetos reais. Essa disponibilização é apenas para a finalidade do desafio técnico.
+📦 [Download (somente para teste)](https://drive.google.com/file/d/1wyNaDfLTuK-G2GXsMAbCIF_9kRVDfxol/view?usp=sharing)
 
 ---
 
-## 🎥 2. Vídeo de Apresentação (opcional, mas recomendado)
+## 💻 Parte 2 – Front-end: Vue.js + Tailwind
 
-Grave um vídeo curto (máximo 5 minutos) com a câmera aberta, se possível.
+### 🎯 Objetivo
 
-### 👇 O que esperamos ver:
-- Seu nome, idade e cidade.
-- Uma breve apresentação de **2 a 3 projetos que você já desenvolveu com WordPress/Elementor**, com explicações rápidas sobre o que você fez, desafios enfrentados e soluções aplicadas.
+Criar uma pequena SPA com Vue.js 3 e Tailwind exibindo uma lista de produtos, consumindo dados via API PHP.
 
-> 🎬 Esse vídeo é opcional, mas nos ajuda a conhecer melhor sua comunicação, clareza e postura — pontos que valorizamos.
+### 📋 Tarefas
+
+- Criar interface com Vue 3 + Tailwind (com ou sem Vite)
+- Exibir lista de produtos (dados da API `/api/produtos`)
+- Campo de busca por nome
+- Componente reutilizável para card de produto
+- Loading e mensagens de erro
+
+Pode usar Axios ou Fetch. Organização de código será avaliada.
+
+---
+
+## ⚙️ Parte 3 – Back-end: API REST em PHP
+
+### 🎯 Objetivo
+
+Criar uma rota `GET /api/produtos` que:
+
+- Retorna JSON com ao menos 5 produtos (`id`, `nome`, `descricao`, `preco`)
+- Suporte a filtro por `?search=`
+
+#### 📦 Exemplo de JSON:
+
+```json
+[
+  {
+    "id": 1,
+    "nome": "Camiseta Branca",
+    "descricao": "100% algodão, unissex",
+    "preco": 59.90
+  },
+  ...
+]
+```
+
+Pode ser PHP puro (procedural ou OO). Use boas práticas.
+
+---
+
+## 🧩 Parte 4 – Teste com EMPS Framework
+
+### 🎯 Objetivo
+
+Validar sua autonomia técnica e capacidade de seguir documentação.
+
+### 📋 Tarefas
+
+- Clonar: [https://github.com/AlexGnatko/EMPS6](https://github.com/AlexGnatko/EMPS6)
+- Instanciar o framework localmente
+- Criar uma página que exiba “Hello World” em uma nova rota
+- Explicar brevemente como fez
+
+📘 Documentação: [https://emps.ag38.ru](https://emps.ag38.ru)
+
+---
+
+## 🎥 (Opcional) Vídeo de Apresentação
+
+Grave um vídeo rápido (máx. 5 min) com:
+
+- Breve apresentação
+- Explicação do raciocínio técnico
+- Decisões que tomou
+- O que faria diferente
 
 ---
 
 ## 📩 Como entregar
 
-Se quiser seguir com o processo seletivo, **responda a nossa mensagem no LinkedIn com um prazo estimado de entrega do teste**.
+Preencha o formulário abaixo com os links de entrega:
 
-Esse tipo de alinhamento é comum no nosso dia a dia de trabalho e é algo que levamos em consideração no processo.
+👉 [Formulário de envio – Dev Full Stack](https://forms.gle/EXEMPLO-DE-LINK)
+
+Inclua:
+
+1. Link da landing page Elementor
+2. Link do projeto Vue.js funcional
+3. Link da API PHP (repositório ou ZIP)
+4. Print ou link da instância EMPS
+5. (Opcional) Link do vídeo de apresentação
 
 ---
 
 **Boa sorte!**  
-Estamos ansiosos para conhecer o seu trabalho 🚀
+Estamos animados para conhecer seu trabalho técnico 🚀
